@@ -1,0 +1,53 @@
+html {
+ background: rgb(255,242,213);
+background: radial-gradient(circle, rgba(255,242,213,1) 0%, rgba(239,223,187,1) 33%, rgba(224,196,132,1) 67%);
+}
+
+p, ul, img, .video-container {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1, h2, h3, h4 {
+    padding-top: 20px;
+    font-family: "Garamond";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+h1{
+  padding-top: 100px;
+}
+
+body {
+  background-size: 100%;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-left: 45%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

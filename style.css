@@ -1,0 +1,216 @@
+html {
+ background: rgb(255,242,213);
+  background: radial-gradient(circle, rgba(255,242,213,1) 0%, rgba(239,223,187,1) 33%, rgba(224,196,132,1) 67%);
+  scroll-behavior: smooth;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-left: 45%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.chart {
+    text-align: center;
+}
+
+p{
+  font-size: 20px;
+  color: black;
+}
+
+h1, h2 {
+    padding-top: 20px;
+    font-family: "Garamond";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+h1{
+  padding-top: 100px;
+}
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	shape-rendering: crispEdges;
+}
+/* labels */
+.axis{
+	  font-family: "Garamond";
+    font-weight: bold;
+    font-size: 16px;
+    fill: black;
+}
+
+  
+.bar:hover {
+    fill: rgb(0, 0, 0);
+}
+
+.squares:hover {
+    fill: rgb(80, 80, 80);
+}
+
+#group-by {
+    width: 50%;
+    text-align: center;
+    color: black;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="white" d="M0,0l6,8l6-8"/></svg>') center right no-repeat;
+    background-color: white;
+    border-color: red;
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    color: rgb(231, 231, 231);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin:auto;
+
+}
+
+.path {
+    fill: rgb(231, 231, 231);
+}
+
+#sort-button {
+    color: rgb(231, 231, 231);
+    border-color: rgb(231, 231, 231);
+}
+
+#sort-button:hover {
+    color: rgb(110, 110, 110);
+    border-color: rgb(110, 110, 110);
+}
+
+.wordcloud{
+  border-style:inset;
+  border-radius: 25px;
+  background: url(https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Flooseleaf.png?v=1607394970604);
+  color:white;
+  display: inline-block;
+}
+.heatmapbackground{
+  margin-top: 20px;
+  background: url(https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Fairmailenvelope.jpg?v=1607401985703)
+}
+.cloudWords{
+  color: black;
+}
+.barchart{
+  display: inline-block;
+  background: url(https://cdn.glitch.com/4c909740-f901-4301-b90e-d2fae49fd29f%2Fsnowglobe.png?v=1607395751327)
+}
+
+.tree{
+  display: inline-block;
+  height: 800px;
+}
+#tooltip {
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: "Garamond";
+    color:black;
+/*     color: rgb(231, 231, 231); */
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+div.nodetip{
+  display:block;
+  position: absolute;
+  text-align: center;
+  background: rgb(255, 182, 193);
+  font-color: black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 20px;
+}
+
+div.freq{
+  display:block;
+  position: absolute;
+  text-align: center;
+  background: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-size: 20px;
+}
+
+body {
+  background-size: 100%;
+}
+
+
+img.center{
+  display: block;
+  margin: 0 auto;
+}
+
+.info{
+  color: red;
+}
+
+.circleLabels{
+  font-color: black;
+}
+
+.column {
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.row {
+}
+
+.label{
+  margin-top: 50px;
+}
